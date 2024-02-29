@@ -1,6 +1,7 @@
 import "@/styles/globals.css";
 import Link from "next/link";
 
+
 export default function App({ Component, pageProps }) {
   return <>
    
@@ -52,12 +53,27 @@ export default function App({ Component, pageProps }) {
         <div className="col-lg-8 col-md-8 col-sm-6 col-xs-12">
           <div className="as_header_detail">
             <div className="as_menu_wrapper">
-             
+              
               <div className="as_menu">
                 <ul>
                   <Link href="/about" legacyBehavior><li><a>About</a></li></Link>  
+                  <Link href="/janampatri" legacyBehavior><li><a>Janampatri</a></li></Link>
+                  <li>
+                    <a href="javascript:;">Horoscope</a>
+                    <ul className="as_submenu">
+                    <Link href="javascript:void(0)" legacyBehavior><li><a>Horoscope 2024</a></li></Link>
+                    <Link href="javascript:void(0)" legacyBehavior><li><a>Monthly Horoscope</a></li></Link>
+                   </ul>
+                  </li>
+                  <li><a href="javascript:;">Puja</a>
+                            <ul class="as_submenu">
+                            <Link href="javascript:void(0)" legacyBehavior><li><a>Off Line Puja</a></li></Link>
+                            <Link href="javascript:void(0)" legacyBehavior><li><a>Online Puja</a></li></Link>
+                           </ul>     
+                             </li>
                   <Link href="/myastroshop" legacyBehavior><li><a>Myastro Shop</a></li></Link>
                   <Link href="/contact" legacyBehavior><li><a>Contact Us</a></li></Link>
+                  
                    </ul>
                     
               </div>
@@ -81,23 +97,12 @@ export default function App({ Component, pageProps }) {
                   <li>
                     <a href="gemstones.html">
                       <span>
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          xmlnsXlink="http://www.w3.org/1999/xlink"
-                          preserveAspectRatio="xMidYMid"
-                          width={8}
-                          height={12}
-                          viewBox="0 0 8 12"
-                        >
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid"
+                          width={8} height={12} viewBox="0 0 8 12" >
                           {" "}
-                          <path
-                            d="M8.000,5.998 L-0.002,11.997 L1.292,5.998 L-0.002,-0.001 L8.000,5.998 ZM1.265,9.924 L6.502,5.998 L1.265,2.071 L2.112,5.998 L1.265,9.924 ZM5.451,5.998 L2.496,8.213 L2.974,5.998 L2.496,3.783 L5.451,5.998 Z"
-                            className="cls-1"
-                          />{" "}
-                        </svg>
-                      </span>
-                      Gemstones
-                    </a>
+                          <path d="M8.000,5.998 L-0.002,11.997 L1.292,5.998 L-0.002,-0.001 L8.000,5.998 ZM1.265,9.924 L6.502,5.998 L1.265,2.071 L2.112,5.998 L1.265,9.924 ZM5.451,5.998 L2.496,8.213 L2.974,5.998 L2.496,3.783 L5.451,5.998 Z"
+                            className="cls-1"/>{" "}
+                        </svg></span>Gemstones</a>
                   </li>
                   <li>
                     <a href="rudraksh.html">

@@ -14,7 +14,7 @@ const AboutPage = () => {
             <h1>About us</h1>
             <ul className="breadcrumb">
               <li>
-                <a href="index.html">Home</a>
+                <a href="/">Home</a>
               </li>
               <li>About Us</li>
             </ul>

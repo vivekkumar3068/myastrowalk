@@ -14,7 +14,7 @@ const MyAstroShop = () => {
             <h1>Myastro Shop</h1>
             <ul className="breadcrumb">
               <li>
-                <a href="index.html">Home</a>
+              <a href="javascript:void(0)">Home</a>
               </li>
               <li>Myastro Shop</li>
             </ul>
@@ -36,7 +36,7 @@ const MyAstroShop = () => {
                 <a href="gemstones.html">
                   <div className="as_product_boxii">
                     <div className="as_product_img">
-                      <img src="assets/images/gemston.png" alt="" className="img-responsive lozad" />
+                      <img src="assets/images/gemston.png" alt="" className="img-responsive " />
                     </div>
                     <h4 className="as_subheading"> Gemstones</h4>
                   </div>
@@ -46,7 +46,7 @@ const MyAstroShop = () => {
                 <a href="rudraksh.html">
                   <div className="as_product_box as_product_boxii">
                     <div className="as_product_img">
-                         <img src="images/rudra.png" alt="" className="img-responsive lozad" />
+                         <img src="images/rudra.png" alt="" className="img-responsive " />
                     </div>
                     <h4 className="as_subheading"> Rudraksh</h4>
                   </div>
@@ -56,7 +56,7 @@ const MyAstroShop = () => {
                 <a href="malas.html">
                   <div className="as_product_box as_product_boxii">
                     <div className="as_product_img">
-                      <img src="images/jaap-mala.jpg" alt="" className="img-responsive lozad" />
+                      <img src="images/jaap-mala.jpg" alt="" className="img-responsive " />
                     </div>
                     <h4 className="as_subheading">Jaap Mala</h4>
                   </div>
@@ -66,7 +66,7 @@ const MyAstroShop = () => {
                 <a href="yantras.html">
                   <div className="as_product_box as_product_boxii">
                     <div className="as_product_img">
-                      <img src="images/yantras.jpg" alt="" className="img-responsive lozad" />
+                      <img src="images/yantras.jpg" alt="" className="img-responsive " />
                     </div>
                     <h4 className="as_subheading">Yantras</h4>
                   </div>
@@ -76,7 +76,7 @@ const MyAstroShop = () => {
                 <a href="lockets.html">
                   <div className="as_product_box as_product_boxii">
                     <div className="as_product_img">
-                      <img src="images/pendants.png" alt="" className="img-responsive lozad" />
+                      <img src="images/pendants.png" alt="" className="img-responsive " />
                     </div>
                     <h4 className="as_subheading"> Locket &amp; Pendants</h4>
                   </div>
@@ -86,7 +86,7 @@ const MyAstroShop = () => {
                 <a href="trending-armlets.html">
                   <div className="as_product_box as_product_boxii">
                     <div className="as_product_img">
-                      <img src="images/trending-armlets.png" alt="" className="img-responsive lozad" />
+                      <img src="images/trending-armlets.png" alt="" className="img-responsive " />
                     </div>
                     <h4 className="as_subheading">Trending Armlets</h4>
                   </div>
@@ -96,7 +96,7 @@ const MyAstroShop = () => {
                 <a href="face-reading.html">
                   <div className="as_product_box as_product_boxii">
                     <div className="as_product_img">
-                      <img src="images/face-reading.png" alt="" className="img-responsive lozad" />
+                      <img src="images/face-reading.png" alt="" className="img-responsive " />
                     </div>
                     <h4 className="as_subheading">Face Reading</h4>
                   </div>
@@ -106,7 +106,7 @@ const MyAstroShop = () => {
                 <a href="kundli-matching.html">
                   <div className="as_product_box as_product_boxii">
                     <div className="as_product_img">
-                      <img src="images/kundli-matching.jpg" alt="" className="img-responsive lozad" />
+                      <img src="images/kundli-matching.jpg" alt="" className="img-responsive " />
                     </div>
                     <h4 className="as_subheading">Kundli Matching</h4>
                   </div>
@@ -116,7 +116,7 @@ const MyAstroShop = () => {
                 <a href="javascript:void(0)">
                   <div className="as_product_box as_product_boxii">
                     <div className="as_product_img">
-                      <img src="images/name.png" alt="" className="img-responsive lozad" />
+                      <img src="images/name.png" alt="" className="img-responsive " />
                     </div>
                     <h4 className="as_subheading">Name Correction</h4>
                   </div>
@@ -126,7 +126,7 @@ const MyAstroShop = () => {
                 <a href="javascript:void(0)">
                   <div className="as_product_box as_product_boxii">
                     <div className="as_product_img">
-                      <img src="images/career-counselling.png" alt="" className="img-responsive lozad" />
+                      <img src="images/career-counselling.png" alt="" className="img-responsive " />
                     </div>
                     <h4 className="as_subheading">Carrier Counselling</h4>
                   </div>
@@ -136,7 +136,7 @@ const MyAstroShop = () => {
                 <a href="javascript:void(0)">
                   <div className="as_product_box as_product_boxii">
                     <div className="as_product_img">
-                      <img src="images/baby-names.png" alt="" className="img-responsive lozad" />
+                      <img src="images/baby-names.png" alt="" className="img-responsive " />
                     </div>
                     <h4 className="as_subheading">Baby Name Suggetion</h4>
                   </div>
@@ -146,7 +146,7 @@ const MyAstroShop = () => {
                 <a href="javascript:void(0)">
                   <div className="as_product_box as_product_boxii">
                     <div className="as_product_img">
-                      <img src="images/spell-checks.png" alt="" className="img-responsive lozad" />
+                      <img src="images/spell-checks.png" alt="" className="img-responsive " />
                     </div>
                     <h4 className="as_subheading">Spell Check</h4>
                   </div>
@@ -156,7 +156,7 @@ const MyAstroShop = () => {
                 <a href="horse-shoe.html">
                   <div className="as_product_box as_product_boxii">
                     <div className="as_product_img">
-                      <img src="images/horse-shoe.png" alt=""className="img-responsive lozad" />
+                      <img src="images/horse-shoe.png" alt=""className="img-responsive " />
                     </div>
                     <h4 className="as_subheading">Horse Shoe</h4>
                   </div>
@@ -166,7 +166,7 @@ const MyAstroShop = () => {
                 <a href="shivlings.html">
                   <div className="as_product_box as_product_boxii">
                     <div className="as_product_img">
-                      <img src="images/shivling.jpg" alt="" className="img-responsive lozad" />
+                      <img src="images/shivling.jpg" alt="" className="img-responsive " />
                     </div>
                     <h4 className="as_subheading">Shivling</h4>
                   </div>
@@ -176,7 +176,7 @@ const MyAstroShop = () => {
                 <a href="worship-idols.html">
                   <div className="as_product_box as_product_boxii">
                     <div className="as_product_img">
-                      <img src="images/worship.png" alt="" className="img-responsive lozad" />
+                      <img src="images/worship.png" alt="" className="img-responsive " />
                     </div>
                     <h4 className="as_subheading">Worship Idols</h4>
                   </div>
@@ -186,7 +186,7 @@ const MyAstroShop = () => {
                 <a href="puja-items.html">
                   <div className="as_product_box as_product_boxii">
                     <div className="as_product_img">
-                      <img src="images/puja-thali.png" alt="" className="img-responsive lozad" />
+                      <img src="images/puja-thali.png" alt="" className="img-responsive " />
                     </div>
                     <h4 className="as_subheading">Puja Items</h4>
                   </div>
@@ -196,7 +196,7 @@ const MyAstroShop = () => {
                 <a href="kawach.html">
                   <div className="as_product_box as_product_boxii">
                     <div className="as_product_img">
-                      <img src="images/kawach.png" alt="" className="img-responsive lozad" />
+                      <img src="images/kawach.png" alt="" className="img-responsive " />
                     </div>
                     <h4 className="as_subheading">Kawach</h4>
                   </div>
@@ -206,7 +206,7 @@ const MyAstroShop = () => {
                 <a href="rashi-yantra.html">
                   <div className="as_product_box as_product_boxii">
                     <div className="as_product_img">
-                      <img src="images/rashi-yantras.jpg" alt="" className="img-responsive lozad"/>
+                      <img src="images/rashi-yantras.jpg" alt="" className="img-responsive "/>
                     </div>
                     <h4 className="as_subheading">Rashi Yantra</h4>
                   </div>
@@ -216,7 +216,7 @@ const MyAstroShop = () => {
                 <a href="rings.html">
                   <div className="as_product_box as_product_boxii">
                     <div className="as_product_img">
-                      <img src="images/rings.jpg" alt="" className="img-responsive lozad" />
+                      <img src="images/rings.jpg" alt="" className="img-responsive " />
                     </div>
                     <h4 className="as_subheading">Rings</h4>
                   </div>
@@ -226,7 +226,7 @@ const MyAstroShop = () => {
                 <a href="wall-hanging-yantra.html">
                   <div className="as_product_box as_product_boxii">
                     <div className="as_product_img">
-                      <img src="images/wall-hanging-yantra.png" alt="" className="img-responsive lozad" />
+                      <img src="images/wall-hanging-yantra.png" alt="" className="img-responsive " />
                     </div>
                     <h4 className="as_subheading">Wall Hanging Yantra</h4>
                   </div>
